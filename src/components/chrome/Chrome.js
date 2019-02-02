@@ -17,27 +17,35 @@ export const Chrome = ({ onChange, disableAlpha, rgb, hsl, hsv, hex, renderers,
         borderRadius: '2px',
         boxShadow: '0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)',
         boxSizing: 'initial',
-        width: '225px',
         fontFamily: 'Menlo',
+        // width: '225px',
+        width: '100%',
+        height: '150px',
       },
       saturation: {
-        width: '100%',
-        paddingBottom: '55%',
+        // width: '100%',
+        width: '50%',
+        height: '100%',
+        // paddingBottom: '55%',
+        marginLeft: '255px',
         position: 'relative',
         borderRadius: '2px 2px 0 0',
         overflow: 'hidden',
+        borderLeft: '1px solid #aaa'
       },
       Saturation: {
-        radius: '2px 2px 0 0',
+        radius: '2px 2px 0 0'
       },
       body: {
         padding: '16px 16px 12px',
+        width: '50%',
+        transform: 'translateY(-130px)',
       },
       controls: {
-        display: 'flex',
+        display: 'flex'
       },
       color: {
-        width: '32px',
+        width: '32px'
       },
       swatch: {
         marginTop: '6px',
